@@ -1,15 +1,16 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Vilniaus Ozo gimnazijos firminio stiliaus vadovas",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "yellow": "#F09200",
+    "blue": "#007CB0",
+    "white": "#FFFFFF",
+    "black": "#000000",
     "anchors": {
       "from": "#0D9373",
       "to": "#07C983"
@@ -17,13 +18,13 @@
   },
   "topbarLinks": [
     {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "name": "Svetainė",
+      "url": "https://ozogimnazija.lt"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Susisiekti",
+    "url": "https://www.ozogimnazija.lt/kontaktai/"
   },
   "tabs": [
     {
@@ -50,22 +51,29 @@
   ],
   "navigation": [
     {
-      "group": "Get Started",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        "pradzia",
+        "vadovo-ideja"
+      ]
+    }
+    {
+      "group": "Apie mus",
+      "pages": [
+        "apie-mus/kas-mes",
+        "apie-mus/asmenybe",
+        "apie-mus/bendravimo-tonas"
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Logotipas",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "logotipas/ideja",
+        "logotipas/versijos",
+        "logotipas/proporcijos",
+        "logotipas/apsaugine-erdve",
+        "logotipas/spalvos",
+        "logotipas/naudojimo-versijos",
+        "logotipas/netinkamas-naudojimas"
       ]
     },
     {
