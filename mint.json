@@ -29,12 +29,6 @@
     "name": "Susisiekti",
     "url": "https://www.ozogimnazija.lt/kontaktai/"
   },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
   "anchors": [
     {
       "name": "Documentation",
